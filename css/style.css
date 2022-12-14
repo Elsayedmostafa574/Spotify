@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.home {
+    height: 100vh;
+    background-size: cover;
+    background-image: url(../img/imagine-dragons-1495039481.19.2560x1440.png);
+    position: relative;
+}
+
+.home .bg-color {
+    width: 100%;
+    height: 100%;
+    background-color: #0F3460;
+    opacity: 46%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 0;
+}
+
+.navbar {
+    z-index: 11111111;
+    padding-top: 30px;
+}
+
+.navbar .navbar-brand {
+    margin-left: 50px;
+}
+
+.navbar .navbar-nav .nav-item .nav-link {
+    margin-right: 50px;
+    color: white !important;
+}
+
+.navbar .navbar-nav .nav-item .btn-subcribe {
+    color: white;
+    background-color: #00D95F;
+    padding: 10px 50px;
+    border-radius: 23px;
+    border: none;
+    box-shadow: #00D95F 0px 0px 60px;
+    margin-right: 100px;
+}
+
+.navbar .navbar-nav .nav-item .dot {
+    width: 14px;
+    height: 14px;
+    background-color: #00D95F;
+    display: inline-block;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.navbar .form-inline {
+    width: 350px;
+    border-radius: 10px;
+    margin-left: 100px;
+    background-color: rgb(132, 141, 157);
+}
+
+.navbar .form-inline .form-control {
+    background-color: rgb(132, 141, 157);
+    color: white;
+    border: none;
+}
+
+.navbar .form-inline .form-control::placeholder {
+    color: rgb(246, 247, 248) !important;
+}
+
+.home .content {
+    position: absolute;
+    top: 32%;
+    left: 140px;
+    width: 45%;
+    color: white;
+    z-index: 11111111;
+    padding-right: 200px;
+}
+
+.home .content h1 {
+    color: var(--unnamed-color-ffffff);
+    text-align: left;
+    font-size: 40px;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    text-shadow: 0px 0px 60px #FFFFFFBF;
+}
+
+.home .content .p1 {
+    font-size: 16px;
+    color: #FFFFFF;
+    opacity: 0.8;
+}
+
+.home .content .second-p {
+    color: white;
+    opacity: 51%;
+    font-weight: 300;
+    font-size: 15px;
+}
+
+.home .content .btn-2 {
+    padding: 9px 58px;
+    background-color: #0AC661;
+    color: white;
+    border: none;
+    font-size: 22px;
+}
